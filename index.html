@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="AgriHack 2018 Product Demonstration">
+  <meta property="og:description" content="Connecting Ewe - a front-end web application prototype seeking to facilitate a greater connection between livestock farmers and the end consumer.">
+  <meta property="og:image" content="img/preview-slide.png">
+  <!-- <meta property="og:url" content="/index.html"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,800,700' rel='stylesheet' type='text/css'> -->
+
+</head>
+
+<body>
+  <img src="img/logo.png" alt="Avatar" class="logo">
+    <h1 style="font-weight: 900;text-shadow: 2px 2px 8px rgba(33, 37, 43,0.2);position:relative;;"><b>Organic Lamb Chops (500g)</b></h1>
+    <img src="img/lamby2.png" class="lamb">
+    <!-- <div class="card">
+      <div class="container">
+        <h4><b>Search for your farm land</b></h4>
+        <p>Architect </p>
+      </div>
+    </div> -->
+
+    <div class="card" style="height:">
+      <div class="container">
+        <h4><b>Rate your meat</b></h4>
+
+        <h5>Juiciness</h5>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" value="83" min="0" max="100">
+          <span class="range-slider__value">83</span>
+        </div>
+        <h5>Flavour</h5>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" value="77" min="0" max="100">
+          <span class="range-slider__value">77</span>
+        </div>
+        <h5>Tenderness</h5>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" value="82" min="0" max="100">
+          <span class="range-slider__value">82</span>
+        </div>
+        <h5>Overall Tastiness</h5>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" value="100" min="0" max="100">
+          <span class="range-slider__value">100</span>
+        </div>
+        <br>
+        <button class="button-round">Submit</button></p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="container">
+      <h4><b>Where did my lamb chop come from?</b></h4>
+      <img src="img/distance.svg" class="icon">
+      <h2 style="margin-bottom:2px;">97.2km</h2>
+      <p style="margin-top:0.5em;">From <i>Bindoon</i> to <i>Perth</i></p>
+    </div>
+        <div id="map" class="map" style="height: 190px;border-radius: 0.317rem;">
+          <script src="map.js" width="100%"></script>
+        </div>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2gVVzKntywKc8KDzoZ5odgnvYzudFbCY&callback=initMap">
+        </script>
+        <br>
+    </div>
+<!-- dardenup butchering company -->
+    <div class="card">
+      <div class="container">
+        <h4><b>Farmer Profile</b></h4>
+        <img src="img/dp.png" alt="Avatar" class="dp" >
+        <h2>Jordi Hermoso</h2>
+        <p>We farm pigs, sheep, and cattle. We breed the pigs and sheep, but buy cattle in and feed them on. The cattle are agisted elsewhere as we don't have the room for them. Our primary focus is the sheep, and we are fully set up to breed and grow them</p>
+        <img src="img/f-rating.png" alt="Avatar" class="rating" style="height:50px">
+        <p style="font-size:0.6em;line-height:32px"><i>*Based on 12-point <a>quality metric standard</a></i></p>
+
+        <br>
+        <h5>Farm environment profile</h5>
+        <script src="script.js"></script>
+        <div id="slider">
+           <div class="slides">
+              <!-- First slide -->
+              <div class="slider">
+                 <div class="legend"></div>
+                 <div class="content">
+                    <div class="content-txt">
+                       <!-- <h1> Your title </h1> -->
+                       <!-- <h2> Your description </h2> -->
+                    </div>
+                 </div>
+                 <div class="images">
+                    <img src="bkg/1.jpg" style="width:100%;background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+                    border-radius: 0.317rem;">
+                 </div>
+              </div>
+              <!-- Second slide -->
+              <div class="slider">
+                 <div class="legend"></div>
+                 <div class="content">
+                    <div class="content-txt">
+                       <!-- <h1> Your title </h1> -->
+                       <!-- <h2> Your description </h2> -->
+                    </div>
+                 </div>
+                 <div class="images">
+                    <img src="bkg/2.jpg" style="width:100%;background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+                    border-radius: 0.317rem;">
+                 </div>
+              </div>
+              <!-- Third slide -->
+              <div class="slider">
+                 <div class="legend"></div>
+                 <div class="content">
+                    <div class="content-txt">
+                       <!-- <h1> Your title </h1> -->
+                       <!-- <h2> Your description </h2> -->
+                    </div>
+                 </div>
+                 <div class="images">
+                    <img src="bkg/3.jpg" style="width:100%;background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+                    border-radius: 0.317rem;">
+                 </div>
+              </div>
+              <!-- Fourth slide -->
+              <div class="slider">
+                 <div class="legend"></div>
+                 <div class="content">
+                    <div class="content-txt">
+                       <!-- <h1> Your title </h1> -->
+                       <!-- <h2> Your description </h2> -->
+                    </div>
+                 </div>
+                 <div class="images">
+                    <img src="bkg/4.jpg"
+                    style="width:100%;background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+                    border-radius: 0.317rem;">
+                 </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
